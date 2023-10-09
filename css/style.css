@@ -160,24 +160,17 @@ a {
   align-items: center;
   flex-direction: column;
   padding: 2em;
-  height: 75vh;
-  background-image: linear-gradient(90deg, rgb(15, 14, 10) 0%, rgba(255, 255, 255, 0.13) 45%, rgb(7, 7, 6) 100%), url("../img/headersmall1.jpg");
+  height: 65vh;
+  background-image: url("../img/whitehero2big.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right 5% center;
   background-attachment: scroll;
-}
-.header p {
-  text-transform: uppercase;
-  font-size: 1.2em;
-  color: #f8f0e5;
-  padding: 1em 1.5em;
-  background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: 1px 1px 5px white;
 }
 
 .about-us {
   background-color: #f5efe9;
   padding: 6em 2em;
+  box-shadow: inset -1px 1px 20px 0px #3f2305;
 }
 .about-us__wrapper {
   display: flex;
@@ -213,6 +206,7 @@ a {
   background-position: center;
   background-attachment: scroll;
   height: 400px;
+  box-shadow: -1px 1px 20px 0px #3f2305;
 }
 
 .offers {
@@ -279,6 +273,7 @@ a {
 .gallery__section {
   background-color: #f8f0e5;
   padding: 6em 2em;
+  box-shadow: inset -1px 1px 20px 0px #3f2305;
 }
 .gallery__thumbnail {
   width: 100%;
@@ -516,6 +511,7 @@ a {
   border-top: 1px solid #3f2305;
   background-color: #f8f0e5;
   padding: 1em;
+  box-shadow: inset -1px 1px 10px 0px #3f2305;
 }
 
 @media (min-width: 574px) {
@@ -536,7 +532,7 @@ a {
 }
 @media (min-width: 768px) {
   .header {
-    background-image: linear-gradient(90deg, rgb(15, 14, 10) 0%, rgba(255, 255, 255, 0.13) 45%, rgb(7, 7, 6) 100%), url("../img/header1.jpg");
+    background-image: url("../img/whitehero2big.jpg");
   }
   .header p {
     font-size: 1.4em;
@@ -588,11 +584,7 @@ a {
 }
 @media (min-width: 992px) {
   .header {
-    background-image: linear-gradient(90deg, rgb(15, 14, 10) 0%, rgba(255, 255, 255, 0.13) 45%, rgb(7, 7, 6) 100%), url("../img/header1.jpg");
-    max-height: 700px;
-  }
-  .header p {
-    font-size: 1.6em;
+    max-height: 600px;
   }
   .about-us__title {
     font-size: 1.8em;
